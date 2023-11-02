@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFDDD2;
+}
+
+.navbar {
+    background-color: #EDF6F9;
+}
+
+#mainNavbar .navbar-brand {
+    color: #006D77;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#mainNavbar .nav-link {
+    color: #006D77;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #83C5BE;
+    cursor: pointer;
+    border-bottom: 1px solid #FFDDD2;
+}
+
+.header {
+    color: #006D77;
+    background-image: linear-gradient(rgba(237, 246, 249, 0.707), rgba(234, 221, 216, 0.608)),
+        url("images/genericMountains.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.header h2 {
+    color: #006D77;
+    font-size: 4rem;
+}
+
+.header p {
+    padding: 0 80px;
+}
+
+.blurb h3 {
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.blurb p {
+    color: #E29578;
+    line-height: 2;
+}
+
+.navbar.scrolled {
+    background: #006D77;
+    color: #EDF6F9;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #generic h2 {
+        color: #006D77;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .header h2 {
+        color: #006D77;
+        font-size: 2rem;
+    }
